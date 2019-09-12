@@ -1,0 +1,7 @@
+---
+applications:
+- name: go-app
+  path: ./bin/linux
+  buildpacks:
+  - binary_buildpack
+  command: ./my-go-app
